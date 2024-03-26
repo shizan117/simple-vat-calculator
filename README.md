@@ -1,3 +1,33 @@
+VAT Calculator and User Authentication in Laravel
+Description:
+This Laravel project encompasses two main functionalities:
+
+Section 1: User Authentication & Seeder
+Utilized Laravel's authentication scaffolding for user authentication.
+Created a seeder (DatabaseSeeder.php) to populate the users table with sample login data.
+Implemented session management for login and logout functionalities.
+
+Section 3:
+Designed a Blade template layout, inspired by Bootstrap's dashboard example.
+Integrated a VAT calculator, allowing users to perform calculations based on provided inputs.
+Added a button for VAT calculation in the left sidebar.
+Included a session-based sign-out function in the header for user convenience.
+
+Usage:
+Clone the repository.
+Navigate to the project directory.
+Install dependencies using composer install.
+Run migrations to set up the database using php artisan migrate.
+Seed the users table with sample login data using php artisan db:seed.
+Serve the application using php artisan serve.
+Access the application through the provided URL.
+Create a new account and login to the dashboard.
+Navigate to the VAT calculation button on the left sidebar and compute the VAT.
+Sign out from the page using the "Sign Out" button in the header.
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
