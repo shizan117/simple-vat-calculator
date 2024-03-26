@@ -1,30 +1,30 @@
-VAT Calculator and User Authentication in Laravel
-Description:
+## VAT Calculator and User Authentication in Laravel
+
+**Description:**
 This Laravel project encompasses two main functionalities:
 
-Section 1: User Authentication & Seeder
-Utilized Laravel's authentication scaffolding for user authentication.
-Created a seeder (DatabaseSeeder.php) to populate the users table with sample login data.
-Implemented session management for login and logout functionalities.
+### Section 1: User Authentication & Seeder
+- Utilized Laravel's authentication scaffolding for user authentication.
+- Created a seeder (`DatabaseSeeder.php`) to populate the users table with sample login data.
+- Implemented session management for login and logout functionalities.
 
-Section 3:
-Designed a Blade template layout, inspired by Bootstrap's dashboard example.
-Integrated a VAT calculator, allowing users to perform calculations based on provided inputs.
-Added a button for VAT calculation in the left sidebar.
-Included a session-based sign-out function in the header for user convenience.
+### Section 3:
+- Designed a Blade template layout, inspired by Bootstrap's dashboard example.
+- Integrated a VAT calculator, allowing users to perform calculations based on provided inputs.
+- Added a button for VAT calculation in the left sidebar.
+- Included a session-based sign-out function in the header for user convenience.
 
-Usage:
-Clone the repository.
-Navigate to the project directory.
-Install dependencies using composer install.
-Run migrations to set up the database using php artisan migrate.
-Seed the users table with sample login data using php artisan db:seed.
-Serve the application using php artisan serve.
-Access the application through the provided URL.
-Create a new account and login to the dashboard.
-Navigate to the VAT calculation button on the left sidebar and compute the VAT.
-Sign out from the page using the "Sign Out" button in the header.
-
+**Usage:**
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using `composer install`.
+4. Run migrations to set up the database using `php artisan migrate`.
+5. Seed the users table with sample login data using `php artisan db:seed`.
+6. Serve the application using `php artisan serve`.
+7. Access the application through the provided URL.
+8. Create a new account and login to the dashboard.
+9. Navigate to the VAT calculation button on the left sidebar and compute the VAT.
+10. Sign out from the page using the "Sign Out" button in the header.
 
 
 
